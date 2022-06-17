@@ -1,5 +1,5 @@
 #   Interpreter for Monty ByteCodes files
-![stack_project](./stack_project.jpg)
+
 
 **Monty** 0.98 is a scripting language that is first compiled into **Monty** byte codes **(Just like Python)**. It relies on a unique **stack**, with specific instructions to manipulate it.
 
@@ -30,29 +30,5 @@
 |   `stack`     |    sets the format of the data to a **stack (LIFO)**. |
 |   `queue`     |   sets the format of the data to a **queue (FIFO)**.  |
 
-***Other functions implemented:***
--   Use of comments with `#` preceeding comment
-<br><br>
 
-##  Compilation 🏃🏻
-***Your code should be compiled this way:*** <br>
-`$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty`
-<br><br>
 
-## Examples 🔥
-```
-Tom_tola@ubuntu:~/monty$ cat -e bytecodes/00.m
-push 1$
-push 2$
-push 3$
-pall$
-Tom_tola@ubuntu:~/monty$ ./monty bytecodes/00.m
-3
-2
-1
-Tom_tola@ubuntu:~/monty$
-```
-
-##  Authors 🤝🏽
-**Adebisi Oluwatomiwa** <br>
-**Odelola Oluwatolamise** <br>
